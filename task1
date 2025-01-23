@@ -1,0 +1,62 @@
+#Arithmetic operators
+print(987+654)
+print(987-654)
+print(987*654)
+print(987/654)
+print(987//654)
+
+
+#using variables
+a=987
+b=654
+print(987+654)
+print(987-654)
+print(987*654)
+print(987/654)
+print(987//654)
+print(2**5)
+
+
+#strings
+a="hello world"
+#length of str
+print(len(a))
+#type of str
+print(type(a))
+
+#slicing using strings with positive indexing
+str1="okkasari commit ayte na mata nene vinanu"
+print(str1[8])
+print(str1[2:5])
+print(str1[10: 8: -1])
+
+#slicing using strings with negative indexing 
+print(str1[-2:-5])
+print(str1[-10: -8: -1])
+
+
+# address value assigned in memory block for a particular variable
+str1='hi'
+print(id(str1))
+str2='how are you'
+print(id(str2))
+
+
+#datatypes =numbers
+5
+print(type(5))
+3.6
+print(type(3.6))
+5+8j
+print(type(5+8j))
+
+#strings are immutable as their sub strings cannot be changed once declared but we can re-assign the entire string to avoid ambiguity 
+str2="where are you going"
+print(str2[9])
+#changing a specific index value
+(str2[9])='n'
+print(str2[9])
+
+#re-assigning
+str2="where are you going"
+print(str2[9])
