@@ -1,0 +1,47 @@
+#conditional statements
+print("Pushpa the rise")
+print("Pushpa the rule")
+num1 = 0
+if num1 == 1:
+  print("Pushpa the rise")
+else:
+    print("Pushpa the rule")
+    print("1500 cr")
+    
+print("code ended")
+
+if num>2 then print positive else print negative
+num2 = 2
+num2 > 0
+if num2>0:
+  print("positive")
+else:
+    print("negative")
+    
+if num2 > 0:
+    if num2 == 1:
+        print("One")
+    else:
+      print("positive")
+else:
+    if num2 == 0:
+      print("Zero")
+    else:
+        if num2 == -1:
+            print("-1")
+        else:
+            print("negative")
+            
+else if - elif
+if num2 > 0:
+  print("positive")
+elif num2 == 1:
+     print("One")
+elif num2 == 0:
+    print("Zero")
+elif num2 == -1:
+    print("-1")
+elif num2 == -2:
+    print("-2")
+else:
+    print("negative")
