@@ -1,0 +1,105 @@
+#complex numbers
+a=2+3j
+b=6+9j
+print(type(a))
+
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a**b)
+print(a//b)
+print(a%b)
+
+
+#booleans- true or false
+#assignment operator
+atm_pin = 567
+print(atm_pin == 765)
+print(atm_pin ==567)
+
+db_user_password = "1234"
+user_password_input ="1234"
+print(db_user_password==user_password_input)
+print("login succesfull")
+sequence-strings,list,tuple,range
+list syntax- list_new = [] ,we an change ,update ,add ,it is mutable
+list is slower in iteration compared to tuple
+list_new = [2,3,4,"string",True, [1,2,3]]
+print(list_new)
+print(list_new[2])
+print(len(list_new))
+print(len(list_new[5]))
+print(list_new[5])
+print(list_new[-2])
+print(list_new[1:3:2])
+# print(list_new[6])
+list_new = [2,3,4,"string",False, [1,"hi",3]]
+print(list_new[5][1])
+print(list_new[-2])
+
+list_new[5][1] = "Good bye"
+print(list_new)
+list_new = [2,3,4,"string",False, ["hello"]]
+print(list_new[5])
+
+print(list_new[5]) o/p [1,"hi",3]
+temp_var = list_new[5]
+print(temp_var)   #(or)
+print(list_new[5[1]])
+
+#tuple - it is  immutable
+tup1 =(1,2,3,4,5)
+print(type(tup1))
+
+range- limit : upperbound is not considered
+#Range
+print(list(range(0,100)))
+print(list(range(100,45))) # o/p=empty string
+
+#for loop in list and range
+list1 = [1,2,3,4,5]
+for i in list1:
+  print(i)
+list1 = [1, 2, 3, 4, 99]
+print(len(list1))
+for i in range(0, len(list1)):
+     print(i, list1[i])
+
+#Dictionary= it is a key value pair &it is mutable(update ,dlt add)
+ #key values are different but values are same
+ #it is represented in flower brackets{} separated by commas
+ #by using key we can access value , and viceversa is not possible(error=key error)
+ #if we assign the key value to 2/more values it will update the last key value
+ 
+dict1 = {1: 'maheshbabu', 2: 'AA', 3: 'Dhanush', 4: 'rajendraprasad', 5: 'snow family', 6: 'surya', 7: 'surya'}
+print(dict1)
+print(dict1[2])
+
+#sets - it is a collection of elements-unique,finite ,unordered and separated by commas represented by flower brackets
+ set1 = {2,4,5,2,2,2,4,6}
+   print(set1)
+#set is not indexable
+set1 = {2,4,5,2,2,2,4,6, "string1","string2"}
+  print(set1)
+ #set does not follow order it changes with execution
+ #the o/p is same for one execution , by doing more executions the
+   #o/p also changes
+   #set doesnot accept duplicates
+
+#None database-there is no data in the memory block
+num = 1
+num = None
+print(num)
+print(type(num))
+print(id(num))
+
+a = input("Enter a number")
+b = input("Enter another number")
+print(type(a))
+print(a + b)
+
+a = int(input("Enter a number"))
+b = int(input("Enter another number"))
+print(type(a))
+print(a + b)
