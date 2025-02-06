@@ -1,0 +1,48 @@
+#conversions
+ #int to float
+int1 = 5
+int1 = float(int1)
+print(int1)
+
+#float to int
+int1 = int(int1)
+print(int1)
+
+#boolean to int
+bool1 = True
+print(int(bool1))
+#int to boolean
+print(bool(1))
+print(bool(0))
+print(bool(2))
+print(bool(-1))
+print(bool(-22))
+
+#truthy values and falsy values
+#truthy values- accept all numbers except 0,True,strings except empty strings
+#falsy values- 0,false,""empty string
+#bool to string
+print(bool("   "))
+print(bool('Hello'))
+print(bool(''))
+
+#string to int
+print(int('25'))
+
+#string to float
+print(float('25.55'))
+
+#string to list
+str1 = "chinnari pelli kuthuru"
+print(list(str1))
+print(len(list(str1)))
+print(len(str1))
+
+#list to string
+list1 = [1,2, True,[1, 6.72]]
+print(str(list1))
+
+#list1 = [1,2, True,[1, 6.72]]
+str1 = str1(list1)
+print(str1)
+print(str1[0])
